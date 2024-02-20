@@ -1,17 +1,23 @@
-import { Link } from "react-router-dom";
-export default function Nav(){
-    return(
-        <nav className="bg-black h-20 text-white  text-3xl">
-            <ul className="flex flex-row justify-around">
-                <li>
-                <Link to="/"> Inicio</Link>
-                   
-                </li>
-                <li>
-                <Link to="/faqs">  Preguntas frecuentes</Link>
-                   
-                </li>
-            </ul>
-        </nav>
-    )
+import { NavLink } from "react-router-dom";
+import { routes } from "../../routes/routes";
+export default function Nav() {
+  return (
+    <nav className="bg-primary h-20 text-white  text-3xl">
+      <ul className="flex flex-row justify-around">
+        {routes.map((route) => (
+          <li>
+            <NavLink
+              className={({ isActive, isPending }) =>
+                isActive ? "font-bold" : isPending ? "underline" : ""
+              }
+              to={route.path}
+            >
+              {" "}
+              {route.label}
+            </NavLink>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  );
 }
