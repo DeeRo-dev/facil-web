@@ -1,13 +1,10 @@
 
-import React,{useState} from "react";
-// import {Accordion, AccordionItem, Button} from "@nextui-org/react";
 
 
 export default function Faqs() {
-//   const [selectedKeys, setSelectedKeys] = useState(new Set(["1"]));
 
-  const defaultContent =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+  // const defaultContent =
+  //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
   return (
     <div className="h-auto b-10 flex flex-col items-center ">
       <div className="bg-primary w-full text-center ">

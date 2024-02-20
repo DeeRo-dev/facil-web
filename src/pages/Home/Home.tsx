@@ -1,5 +1,6 @@
 import React from "react";
 import { CarCard } from "../../components/CarCard/CarCard";
+import FormHome from "../../components/FormHome/FormHome";
 
 
 const Home: React.FC = () => {
@@ -19,7 +20,7 @@ const Home: React.FC = () => {
 
         
           <div className="mt-5">
-             {/* <FormHome /> */}
+             <FormHome />
           </div>
          
         </div>
