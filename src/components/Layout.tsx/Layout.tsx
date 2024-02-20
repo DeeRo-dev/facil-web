@@ -1,6 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
 import Nav from "../Nav/Nav";
+import Footer from "../Footer/Footer";
 
 
 const Layout: React.FC = () => {
@@ -8,6 +9,7 @@ const Layout: React.FC = () => {
     <main>
       <Nav/>
       <Outlet />
+      <Footer/>
     </main>
   );
 };
