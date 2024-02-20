@@ -1,7 +1,10 @@
+import Nav from './components/Nav/Nav';
 
 function App() {
   return (
-    <h1>Gholis</h1>
+    <>
+      <Nav/>
+    </>
   )
 }
 

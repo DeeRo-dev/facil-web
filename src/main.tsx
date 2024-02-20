@@ -5,8 +5,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import "./index.css";
-import Root from "./routes/root";
+// import Root from "./routes/root";
 import ErrorPage from "./pages/ErrorPage";
+import App from "./App";
 
 const rootElement = document.getElementById("root");
 
@@ -14,7 +15,7 @@ if (rootElement) {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Root/>,
+      element: <App/>,
       errorElement: <ErrorPage />,
     },
   ]);
