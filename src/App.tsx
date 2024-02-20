@@ -1,7 +1,7 @@
-import Root from './routes/root'
+
 function App() {
   return (
-    <Root/>
+    <h1>Gholis</h1>
   )
 }
 
