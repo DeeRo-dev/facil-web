@@ -3,35 +3,36 @@ import { CarCard } from "../../components/CarCard/CarCard";
 import FormHome from "../../components/FormHome/FormHome";
 import { Carrousel } from "../../components/Carrousel/Carrousel";
 
-
 const Home: React.FC = () => {
   return (
-    <div className=" items-center flex flex-col text-colorText">
-
-    <Carrousel/>
-      <div className="w-full bg-terciary ">
-
-        <div className="flex flex-col  ml-20  w-1/2 my-10">
-
-          <h1 className="text-4xl font-bold text-whiteColor">Buscando alquilar un vehículo?</h1>
+    <div className="items-center flex flex-col text-colorText">
+      <div className="w-full bg-terciary relative">
+        <div className="flex flex-col ml-20 w-1/2 my-10 absolute z-10">
+          <h1 className="text-4xl font-bold text-whiteColor">
+            Buscando alquilar un vehículo?
+          </h1>
           <div className="flex">
-            <img alt="Img not found" src="Line1.svg" width={30} height={30} />
-            <p className="text-xl text-whiteColor">Busca tu sucursal, y reserva hoy!</p>
+            <img
+              alt="Img not found"
+              src="Line1.svg"
+              width={30}
+              height={30}
+            />
+            <p className="text-xl text-whiteColor">
+              Busca tu sucursal, y reserva hoy!
+            </p>
           </div>
-
-        
           <div className="mt-5">
-             <FormHome />
+            <FormHome />
           </div>
-         
         </div>
-
-
+        <div>
+          <Carrousel />
+        </div>
       </div>
 
-
-
       <div className="w-5/6  mt-10">
+        {/* Otro contenido */}
         <div className="flex">
           <div>
             <img
@@ -43,7 +44,7 @@ const Home: React.FC = () => {
             />
           </div>
           <div className="flex flex-col items-center">
-            <h2 className="text-4xl	font-medium mb-5">Acerca de nosotros</h2>
+            <h2 className="text-4xl font-medium mb-5">Acerca de nosotros</h2>
             <p className="text-lg font-normal text-center">
               Bienvenido a FACIL, tu mejor opción para el alquiler de vehículos.
               Nos destacamos por brindar un servicio centrado en el cliente,
