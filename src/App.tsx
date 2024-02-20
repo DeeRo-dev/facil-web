@@ -1,14 +1,7 @@
-
-import './App.css'
-
+import Root from './routes/root'
 function App() {
- 
-
   return (
-    
-      <div>
-        <h1 className='bg-red text-red-600'>Hopla paa subirlo</h1>
-      </div>
+    <Root/>
   )
 }
 
