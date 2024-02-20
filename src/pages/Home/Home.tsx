@@ -1,13 +1,14 @@
 import React from "react";
 import { CarCard } from "../../components/CarCard/CarCard";
 import FormHome from "../../components/FormHome/FormHome";
+import { Carrousel } from "../../components/Carrousel/Carrousel";
 
 
 const Home: React.FC = () => {
   return (
     <div className=" items-center flex flex-col text-colorText">
 
-
+    <Carrousel/>
       <div className="w-full bg-terciary ">
 
         <div className="flex flex-col  ml-20  w-1/2 my-10">
