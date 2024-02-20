@@ -11,6 +11,7 @@ export default {
       primary: '#1875BC',
       whiteColor: '#FFFFFF',
       terciary: '#F0C540',
+      terciaryHover:'#EABA26',
       black:'#000000',
       colorText:'#545454'
       // ...
