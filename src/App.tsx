@@ -4,7 +4,7 @@ import Faqs from "./pages/Faqs/Faqs";
 import Home from "./pages/Home/Home";
 import { Cars } from "./pages/Cars/Cars";
 import ErrorPage from "./pages/ErrorPage";
-
+import '@fontsource/roboto/400.css';
 function App() {
   const routes = createBrowserRouter([
     {
