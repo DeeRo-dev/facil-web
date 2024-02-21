@@ -1,3 +1,4 @@
+import { Carrousel } from "../../components/Carrousel/Carrousel";
 
 
 
@@ -7,9 +8,10 @@ export default function Faqs() {
   //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
   return (
     <div className="h-auto b-10 flex flex-col items-center ">
-      <div className="bg-primary w-full text-center ">
-        <div className="m-auto text-whiteColor w-4/5">
-        <h1  className="text-4xl font-medium mb-5">Fácil rent car comodidad y confort en alquiler de autos</h1>
+      <div className=" w-full text-center relative ">
+        <div className="text-whiteColor absolute z-10  flex justify-center  w-full mt-8">
+          <div className="w-3/4">
+          <h1  className="text-4xl font-medium mb-5">Fácil rent car comodidad y confort en alquiler de autos</h1>
         <p className="text-lg font-normal">
           Con más de tres décadas de experiencia en el mercado, nos destacamos
           como una de las principales empresas de alquiler de vehículos en
@@ -24,6 +26,10 @@ export default function Faqs() {
           de la mano de FÁCIL. Confía en nosotros y permítenos ser el
           protagonista silencioso pero esencial de tu próximo viaje inolvidable.
         </p>
+          </div>
+        </div>
+        <div className='w-full h-96'>
+          <Carrousel sizeCarrousel={500}/>
         </div>
       </div>
       <div className="flex flex-col items-center  w-5/6">

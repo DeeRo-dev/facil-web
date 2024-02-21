@@ -27,7 +27,7 @@ const Home: React.FC = () => {
           </div>
         </div>
         <div>
-          <Carrousel />
+          <Carrousel sizeCarrousel={800}/>
         </div>
       </div>
 
