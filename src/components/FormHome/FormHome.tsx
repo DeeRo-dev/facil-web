@@ -6,7 +6,7 @@ import InputHour from '../Inputs/InputHour';
 
 export default function FormHome()  {
   return (
-    <div  className='bg-primary  h-96  w-auto rounded-lg px-20 py-5'>
+    <div  className='bg-primary backdrop-blur-lg bg-opacity-50 h-auto w-auto rounded-lg px-10 py-10'>
         <form action="" >
             <div className=' m-auto flex flex-col  gap-2'>
             <h2 className='text-lg text-whiteColor  border-b mb-1 border-whiteColor pb-2'>Reserve su vehículo</h2>

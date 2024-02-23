@@ -17,8 +17,9 @@ const Home: React.FC = () => {
               src="Line1.svg"
               width={30}
               height={30}
+              className="mt-1"
             />
-            <p className="text-xl text-whiteColor">
+            <p className="text-xl ml-2 text-whiteColor">
               Busca tu sucursal, y reserva hoy!
             </p>
           </div>

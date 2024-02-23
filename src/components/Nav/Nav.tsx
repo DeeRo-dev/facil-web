@@ -3,7 +3,7 @@ import { BsTelephoneForward } from "react-icons/bs";
 import { routes } from "../../routes/routes";
 export default function Nav() {
   return (
-    <nav className="bg-primary h-20 flex flex-row justify-between text-3xl items-center text-whiteColor">
+    <nav className="bg-primary  h-20 flex flex-row justify-between text-3xl items-center text-whiteColor">
     <div className="ml-10">
     <img src="/logoFacil.png" alt="" />
     </div>
