@@ -2,6 +2,8 @@ import React from "react";
 import { CarCard } from "../../components/CarCard/CarCard";
 import FormHome from "../../components/FormHome/FormHome";
 import { Carrousel } from "../../components/Carrousel/Carrousel";
+import { IoIosArrowDown } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const Home: React.FC = () => {
   return (
@@ -69,7 +71,7 @@ const Home: React.FC = () => {
           <h2 className="text-4xl	font-bold mb-5">
             Le aseguramos la mejor <br /> experiencia al cliente
           </h2>
-          <p className="mb-10 text-lg">
+          <p className="mb-10 text-lg ">
             Alquila con nosotros y convierte cada viaje en una experiencia
             inolvidable. <br />
             Tu aventura comienza aquí
@@ -82,10 +84,12 @@ const Home: React.FC = () => {
             className="max-w-lg max-h-lg"
           />
         </div>
-        <div className="my-20">
+        <div className="flex flex-col justify-center items-center my-20">
           <h2 className="text-4xl	font-medium mb-5">
-            CATEGORÍAS DE VEHÍCULOS - ALQUILER DE AUTOS EN SAN JUAN
+          Contamos con una amplia flota de autos en alquiler 
           </h2>
+          <p className="text-lg w-1/2 text-center mb-10">Elige lo que mejor se ajuste a tus necesidades y expectativas.<br/> En Facil, te garantizamos calidad y seguridad al mejor precio, para que disfrutes de tu viaje sin preocupaciones.</p>
+          
           <div className="grid grid-cols-3 gap-10">
             <CarCard />
             <CarCard />
@@ -93,8 +97,15 @@ const Home: React.FC = () => {
             <CarCard />
             <CarCard />
             <CarCard />
-            <CarCard />
+          
           </div>
+       <div className="flex justify-center text-xl mt-5">
+       <Link to="/flota" className="flex  flex-col justify-center items-center">
+        <p className="underline">Ver mas</p>
+          <IoIosArrowDown />
+        </Link>
+       </div>
+
         </div>
       </div>
       <div>
