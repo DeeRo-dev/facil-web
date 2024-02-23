@@ -39,48 +39,49 @@ export default function Faqs() {
           Preguntas frecuentes sobre el alquiler de autos en{" "}
           <span className="text-primary">FACIL</span>
         </h2>
-        <div className="flex flex-row w-5/6">
-          <div className="w-1/2">
-            <AccordionInput
-              title="¿Cuales son los requisitos para alquilar?"
-              parrafo="Debe presentar documento, licencia de conducir vigente y una tarjeta de crédito visa, mastercard, american express, dinners, con un cupo disponible del monto de la franquicia."
-            />
-            <AccordionInput
-              title="¿Puedo pagar en cuotas?"
-              parrafo="Para el pago de su reserva en cuotas es necesario le enviemos un link de pago vía whatsapp, por favor haga su reserva y antes de abonar envienos un mensaje para que le enviemos el link de pago."
-            />
-            <AccordionInput
-              title="¿Caules son los medios de pago habilitados?"
-              parrafo="Tarjetas de Crédito, Transferencias Bancarias, Mercado Pago, Paypal."
-            />
-            <AccordionInput
-              title="¿Cual es el limite de kilometros?"
-              parrafo="Sistema Smart, un precio para cada necesidad!. Las tarifas mínimas incluyen 100 km. diarios y puede agregar de a 100 km. por día extra.
-De esta forma solo abona por el uso que le de al vehículo"
-            />
-            <AccordionInput
-              title="¿Exiten servicios de Aeropuerto?"
-              parrafo="Contamos con oficinas en el Aeropuerto de San Juan.
-También hacemos entregas y recepciones en los aeropuertos de Mendoza y La Rioja"
-            />
-            <AccordionInput
-              title="¿Que es la franquicia?"
-              parrafo="Cuanto usted alquila con nosotros automáticamente obtiene un seguro todo riesgo con franquicia, la franquicia es el monto máximo que abona en caso de siniestro que varia según el modelo que alquile."
-            />
-            <AccordionInput
-              title="Limpieza del vehículo"
-              parrafo="Luego de cada alquiler, nuestras unidades ademas de pasar por el lavadero, son verificados todos los fluidos y presión de neumáticos."
-            />
-            <AccordionInput
-              title="¿Caul es la Política de Cancelación?"
-              parrafo="Reembolso Total:Para obtener un reembolso total del precio abonado, la cancelación debe realizarse en un plazo de 24 horas desde que se hace la reserva y al menos 45 días completos antes de la hora local de entrega del vehículo.
-Reembolso 50%:Para obtener un reembolso del 50% del precio abonado, la cancelación debe realizarse al menos 30 días completos antes de la hora local de entrega del vehículo.
-Recuerde que puede abonar una seña del 30% para realizar su reserva y que la misma no es reembolsable bajo ninguna circunstancia"
-            />
-            <AccordionInput
-              title="¿Puedo devolver el auto en otra ciudad?"
-              parrafo="Si puede devolverlo en las ciudades que tenemos oficina pero abonando un costo extra que varia según la ciudad."
-            />
+        <div className="flex flex-row w-5/6 ">
+          <div className="w-full my-5 grid grid-cols-2 gap-2">
+            <div className="col-span-1">
+              <AccordionInput
+                title="¿Cuales son los requisitos para alquilar?"
+                parrafo="Debe presentar documento, licencia de conducir vigente y una tarjeta de crédito visa, mastercard, american express, dinners, con un cupo disponible del monto de la franquicia."
+              />
+              <AccordionInput
+                title="¿Puedo pagar en cuotas?"
+                parrafo="Para el pago de su reserva en cuotas es necesario le enviemos un link de pago vía whatsapp, por favor haga su reserva y antes de abonar envíenos un mensaje para que le enviemos el link de pago."
+              />
+              <AccordionInput
+                title="¿Caules son los medios de pago habilitados?"
+                parrafo="Tarjetas de Crédito, Transferencias Bancarias, Mercado Pago, Paypal."
+              />
+              <AccordionInput
+                title="¿Cual es el limite de kilometros?"
+                parrafo="Sistema Smart, un precio para cada necesidad!. Las tarifas mínimas incluyen 100 km. diarios y puede agregar de a 100 km. por día extra. De esta forma solo abona por el uso que le de al vehículo."
+              />
+                  <AccordionInput
+                title="¿Exiten servicios de Aeropuerto?"
+                parrafo="Contamos con oficinas en el Aeropuerto de San Juan. También hacemos entregas y recepciones en los aeropuertos de Mendoza y La Rioja."
+              />
+            </div>
+            <div className="col-span-1">
+          
+              <AccordionInput
+                title="¿Que es la franquicia?"
+                parrafo="Cuando usted alquila con nosotros automáticamente obtiene un seguro todo riesgo con franquicia, la franquicia es el monto máximo que abona en caso de siniestro que varía según el modelo que alquile."
+              />
+              <AccordionInput
+                title="Limpieza del vehículo"
+                parrafo="Luego de cada alquiler, nuestras unidades además de pasar por el lavadero, son verificados todos los fluidos y presión de neumáticos."
+              />
+              <AccordionInput
+                title="¿Cual es la Política de Cancelación?"
+                parrafo="Reembolso Total: Para obtener un reembolso total del precio abonado, la cancelación debe realizarse en un plazo de 24 horas desde que se hace la reserva y al menos 45 días completos antes de la hora local de entrega del vehículo. Reembolso 50%: Para obtener un reembolso del 50% del precio abonado, la cancelación debe realizarse al menos 30 días completos antes de la hora local de entrega del vehículo. Recuerde que puede abonar una seña del 30% para realizar su reserva y que la misma no es reembolsable bajo ninguna circunstancia."
+              />
+              <AccordionInput
+                title="¿Puedo devolver el auto en otra ciudad?"
+                parrafo="Si puede devolverlo en las ciudades que tenemos oficina pero abonando un costo extra que varía según la ciudad."
+              />
+            </div>
           </div>
         </div>
       </div>
