@@ -8,8 +8,8 @@ import { Link } from "react-router-dom";
 const Home: React.FC = () => {
   return (
     <div className="items-center flex flex-col text-colorText">
-      <div className="w-full bg-terciary relative flex-col md:flex-col-reverse">
-        <div className="flex flex-col ml-20 w-1/2 my-10  md:absolute z-0 md:z-10">
+      <div className="w-full relative flex-col md:flex-col-reverse">
+        <div className="flex flex-col ml-20 w-full md:w-1/2 my-10  md:absolute z-0 md:z-10">
           <div>
             <h1 className="text-4xl font-bold text-whiteColor">
             Buscando alquilar un vehículo?
@@ -36,7 +36,7 @@ const Home: React.FC = () => {
         </div>
       </div>
 
-      <div className="w-5/6 bg-terciary mt-10 ">
+      <div className="w-5/6  mt-10 ">
         {/* Otro contenido */}
         <div className="flex flex-col-reverse md:flex-row">
           <div>
@@ -69,7 +69,7 @@ const Home: React.FC = () => {
           </div>
         </div>
         <div className="flex items-center flex-col text-center">
-          <div className="px-10 bg-primary">
+          <div className="px-10 ">
           <h2 className="text-4xl	font-bold mb-5">
             Le aseguramos la mejor <br /> experiencia al cliente
           </h2>
@@ -87,7 +87,7 @@ const Home: React.FC = () => {
           />
         </div>
         <div className="flex flex-col justify-center items-center my-20">
-          <h2 className="text-4xl	font-medium mb-5">
+          <h2 className="text-4xl	font-medium mb-5 w-full text-center">
           Contamos con una amplia flota de autos en alquiler 
           </h2>
           <p className="text-lg md:w-1/2 w-full text-center mb-10">Elige lo que mejor se ajuste a tus necesidades y expectativas.<br/> En Facil, te garantizamos calidad y seguridad al mejor precio, para que disfrutes de tu viaje sin preocupaciones.</p>
