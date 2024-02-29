@@ -1,3 +1,4 @@
+import { Button } from "@mui/material";
 import AccordionInput from "../../components/AccordionInput/AcordeonInput";
 import { Carrousel } from "../../components/Carrousel/Carrousel";
 import CardLocation from "../../components/cardLocation/CardLocation";
@@ -6,7 +7,7 @@ export default function Faqs() {
   // const defaultContent =
   //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
   return (
-    <div className="h-auto b-10 flex flex-col items-center gap-10">
+    <div className="h-auto b-10 flex flex-col items-center gap-10 mb-10">
       <div className=" w-full text-center relative ">
         <div className="text-whiteColor absolute z-10  flex justify-center  w-full mt-8">
           <div className="w-3/4">
@@ -35,12 +36,13 @@ export default function Faqs() {
           <Carrousel sizeCarrousel={500} />
         </div>
       </div>
-      <div className="flex flex-col items-center  w-5/6">
+     <div className="w-5/6 flex flex-col items-center gap-10">
+     <div className="flex flex-col items-center">
         <h2 className="text-xl	font-bold mb-5 text-colorText mt-4">
           Preguntas frecuentes sobre el alquiler de autos en{" "}
           <span className="text-primary">FACIL</span>
         </h2>
-        <div className="flex flex-row w-5/6 ">
+        <div className="flex flex-row ">
           <div className="w-full my-5 grid grid-cols-2 gap-2">
             <div className="col-span-1">
               <AccordionInput
@@ -87,7 +89,7 @@ export default function Faqs() {
       </div>
 
       <div className="w-4/6 text-colorText flex flex-col items-center mt-8 md:mt-0">
-        <h2 className="text-4xl font-medium mb-5">¿Donde nos encontramos? </h2>
+        <h2 className="text-xl	font-semibold mb-5">¿Donde nos encontramos? </h2>
         <p className="text-lg font-normal text-center">
           ¡Descubre Argentina con Facil! Con nuestras sucursales de renta de
           autos convenientemente ubicadas en San Juan, La Rioja y Mendoza, te
@@ -112,9 +114,21 @@ export default function Faqs() {
         </p>
       </div>
 
-      <div className="w-5/6 ">
+      <div className="w-full">
         <CardLocation/>
       </div>
+      <div className=" w-full items-center flex flex-col gap-5">
+<div>
+<h2 className="text-xl	font-semibold text-colorText mt-4">¿Tiene alguna pregunta?</h2>
+        <p className="text-sm font-normal text-center text-colorText">Sientete libre de preguntar...</p>
+</div>
+        <div className="flex gap-10 flex-col md:flex-row">
+          <Button variant="outlined">Email</Button>
+          <Button variant="outlined">+685457453745</Button>
+          <Button variant="outlined">@FacilArgentina</Button>
+          </div>
+      </div>
+     </div>
     </div>
   );
 }
