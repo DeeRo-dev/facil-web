@@ -124,7 +124,7 @@ export default function Faqs() {
 </div>
         <div className="flex gap-10 flex-col md:flex-row">
           <Button variant="outlined">Email</Button>
-          <Button variant="outlined">+685457453745</Button>
+          <Button variant="outlined">+54 9 264 622-0000</Button>
           <Button variant="outlined">@FacilArgentina</Button>
           </div>
       </div>
