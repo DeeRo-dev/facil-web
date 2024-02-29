@@ -1,11 +1,12 @@
 import AccordionInput from "../../components/AccordionInput/AcordeonInput";
 import { Carrousel } from "../../components/Carrousel/Carrousel";
+import CardLocation from "../../components/cardLocation/CardLocation";
 
 export default function Faqs() {
   // const defaultContent =
   //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
   return (
-    <div className="h-auto b-10 flex flex-col items-center ">
+    <div className="h-auto b-10 flex flex-col items-center gap-10">
       <div className=" w-full text-center relative ">
         <div className="text-whiteColor absolute z-10  flex justify-center  w-full mt-8">
           <div className="w-3/4">
@@ -35,7 +36,7 @@ export default function Faqs() {
         </div>
       </div>
       <div className="flex flex-col items-center  w-5/6">
-        <h2 className="text-xl	font-bold mb-5 text-colorText mt-24">
+        <h2 className="text-xl	font-bold mb-5 text-colorText mt-4">
           Preguntas frecuentes sobre el alquiler de autos en{" "}
           <span className="text-primary">FACIL</span>
         </h2>
@@ -58,13 +59,12 @@ export default function Faqs() {
                 title="¿Cual es el limite de kilometros?"
                 parrafo="Sistema Smart, un precio para cada necesidad!. Las tarifas mínimas incluyen 100 km. diarios y puede agregar de a 100 km. por día extra. De esta forma solo abona por el uso que le de al vehículo."
               />
-                  <AccordionInput
+              <AccordionInput
                 title="¿Exiten servicios de Aeropuerto?"
                 parrafo="Contamos con oficinas en el Aeropuerto de San Juan. También hacemos entregas y recepciones en los aeropuertos de Mendoza y La Rioja."
               />
             </div>
             <div className="col-span-1">
-          
               <AccordionInput
                 title="¿Que es la franquicia?"
                 parrafo="Cuando usted alquila con nosotros automáticamente obtiene un seguro todo riesgo con franquicia, la franquicia es el monto máximo que abona en caso de siniestro que varía según el modelo que alquile."
@@ -84,6 +84,36 @@ export default function Faqs() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="w-4/6 text-colorText flex flex-col items-center mt-8 md:mt-0">
+        <h2 className="text-4xl font-medium mb-5">¿Donde nos encontramos? </h2>
+        <p className="text-lg font-normal text-center">
+          ¡Descubre Argentina con Facil! Con nuestras sucursales de renta de
+          autos convenientemente ubicadas en San Juan, La Rioja y Mendoza, te
+          brindamos acceso fácil y rápido a la movilidad que necesitas para
+          explorar este hermoso país. Desde el momento en que llegas, nuestro
+          proceso de check-in es ágil y sin complicaciones, con atención
+          personalizada que te acompaña en cada paso, asegurándote una
+          experiencia sin preocupaciones.
+          <br />
+          <br />
+          Ya sea que estés planeando un viaje en familia, con amigos o en
+          pareja, alquilar un auto con Facil te ofrece la tranquilidad y el
+          respaldo que necesitas para disfrutar al máximo. Nuestra dedicación es
+          garantizarte una experiencia de viaje excepcional, con vehículos de
+          calidad y servicio al cliente de primera clase.
+          <br />
+          <br />
+          Con Facil, tu aventura comienza desde el momento en que pisas nuestras
+          sucursales. ¡Prepárate para descubrir Argentina con comodidad,
+          confianza y la garantía de una experiencia inolvidable junto a
+          nosotros!
+        </p>
+      </div>
+
+      <div className="w-5/6 ">
+        <CardLocation/>
       </div>
     </div>
   );
