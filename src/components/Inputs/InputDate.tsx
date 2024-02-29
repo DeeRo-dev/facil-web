@@ -3,7 +3,7 @@ import { RiArrowRightSLine } from "react-icons/ri";
 
 const InputDate: React.FC = () => {
   return (
-    <div className="w-1/2">
+    <div className="w-full md:w-1/2">
       <h3 className="text-whiteColor text-sm">
         Fecha de entrega / devolucioin
       </h3>

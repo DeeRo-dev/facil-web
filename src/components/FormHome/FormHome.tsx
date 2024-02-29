@@ -12,10 +12,12 @@ export default function FormHome()  {
             <h2 className='text-lg text-whiteColor  border-b mb-1 border-whiteColor pb-2'>Reserve su vehículo</h2>
             <InputSelect/>
       
-            <div className='flex justify-between gap-2'>
+            <div className=' w-full flex justify-between flex-col md:flex-row gap-5'>
                 <InputDate/>
+           <div className='flex justify-between w-full gap-5'>
+           <InputHour/>
             <InputHour/>
-            <InputHour/>
+           </div>
             </div>
             <Input/>
           

@@ -9,7 +9,7 @@ const Home: React.FC = () => {
   return (
     <div className="items-center flex flex-col text-colorText">
       <div className="w-full relative flex-col md:flex-col-reverse">
-        <div className="flex flex-col ml-20 w-full md:w-1/2 my-10  md:absolute z-0 md:z-10">
+        <div className="flex flex-col md:ml-20 m-auto w-5/6 md:w-1/2 my-10  md:absolute z-0 md:z-10">
           <div>
             <h1 className="text-4xl font-bold text-whiteColor">
             Buscando alquilar un vehículo?
