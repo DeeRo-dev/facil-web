@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { CarCard } from "../../components/CarCard/CarCard";
 import FormHome from "../../components/FormHome/FormHome";
 import { FaArrowLeftLong } from "react-icons/fa6";
+import { FlotaCard } from "../../components/FlotaCard/FlotaCard";
 
 export default function Flota() {
   return (
@@ -30,13 +31,7 @@ export default function Flota() {
               <p>/Flota</p>
             </div>
           </div>
-
-          <CarCard />
-          <CarCard />
-          <CarCard />
-          <CarCard />
-          <CarCard />
-          <CarCard />
+            <FlotaCard/>
         </div>
       </div>
     </>
