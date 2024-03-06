@@ -1,14 +1,16 @@
-import { Link } from "react-router-dom";
-import { CarCard } from "../../components/CarCard/CarCard";
+import { Link, Outlet} from 'react-router-dom';
+// import { CarCard } from "../../components/CarCard/CarCard";
 import FormHome from "../../components/FormHome/FormHome";
 import { FaArrowLeftLong } from "react-icons/fa6";
-import { FlotaCard } from "../../components/FlotaCard/FlotaCard";
+// import { FlotaCard } from "../../components/FlotaCard/FlotaCard";
 
-export default function Flota() {
+export default function LayoutFlota() {
   return (
     <>
       <div className="w-11/12 m-auto mt-5 flex">
-        <div className="w-96 px-2 h-auto ">
+
+      <Outlet />
+        {/* <div className="w-96 px-2 h-auto ">
           <FormHome />
         </div>
 
@@ -31,8 +33,9 @@ export default function Flota() {
               <p>/Flota</p>
             </div>
           </div>
-            <FlotaCard/>
-        </div>
+             <FlotaCard/> 
+            
+        </div> */}
       </div>
     </>
   );
