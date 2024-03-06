@@ -48,7 +48,7 @@ export const FlotaCard = () => {
           </p>
         </div>
         <div className="flex justify-center mb-2">
-            <Link to="/flota/id" className="w-full">
+            <Link to="/flota/ids/addoptions" className="w-full">
                 <BtnForm />
             </Link>
           

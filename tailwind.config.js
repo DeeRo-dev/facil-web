@@ -13,6 +13,7 @@ export default {
       terciary: '#F0C540',
       terciaryHover:'#EABA26',
       black:'#000000',
+      grey:'#AAAAAA',
       colorText:'#545454'
       // ...
     },

@@ -5,10 +5,23 @@ export const routes = [
     },
     {
         label:'Flota',
-        path:'/flota',
+        path:'/flota/ids',
     },
     {
         label:'Preguntas frequentes',
         path:'/faqs',
     },
+  
+]
+
+export const subRoutes = [
+    {
+    label:'Preguntas frequentes',
+    path:'/flota/ids/addoptions',
+},
+{
+    label:'Preguntas frequentes',
+    path:'/flota/ids/addoptions/datauser',
+},
+  
 ]
