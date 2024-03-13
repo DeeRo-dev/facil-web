@@ -19,7 +19,7 @@ export default function FormHome()  {
             <InputHour/>
            </div>
             </div>
-            <Input/>
+            <Input title='Codigo Promocional' titlePLaceHolder='Ingresar codigo'/>
           
             <BtnForm/>
             </div>

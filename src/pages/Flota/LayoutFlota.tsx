@@ -1,16 +1,20 @@
-import { Link, Outlet} from 'react-router-dom';
-// import { CarCard } from "../../components/CarCard/CarCard";
-import FormHome from "../../components/FormHome/FormHome";
-
-// import { FlotaCard } from "../../components/FlotaCard/FlotaCard";
+import { Link, Outlet } from "react-router-dom";
+import { FaArrowLeftLong } from "react-icons/fa6";
 
 export default function LayoutFlota() {
   return (
     <>
       <div className="w-11/12 m-auto mt-5 flex flex-col">
-    <h1 className='m-auto'>Nueva Resva</h1>
-      <Outlet />
-        
+        <div className="pl-15">
+          <Link to="/" className="flex items-center">
+            <FaArrowLeftLong />
+            <p className="ml-2">Volver</p>
+          </Link>
+        </div>
+        <h2 className="text-xl ml-15 font-semibold text-colorText m-auto">
+          Nueva Reserva
+        </h2>
+        <Outlet />
       </div>
     </>
   );
