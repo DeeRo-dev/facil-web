@@ -1,6 +1,6 @@
 import React from "react";
 import { CarCard } from "../../components/CarCard/CarCard";
-import FormHome from "../../components/FormHome/FormHome";
+import FormHome from "../../components/Forms/FormHome";
 import { Carrousel } from "../../components/Carrousel/Carrousel";
 import { IoIosArrowDown } from "react-icons/io";
 import { Link } from "react-router-dom";
