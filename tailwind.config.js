@@ -14,7 +14,8 @@ export default {
       terciaryHover:'#EABA26',
       black:'#000000',
       grey:'#AAAAAA',
-      colorText:'#545454'
+      colorText:'#545454',
+      colorDanger:'#F06A40'
       // ...
     },
   },

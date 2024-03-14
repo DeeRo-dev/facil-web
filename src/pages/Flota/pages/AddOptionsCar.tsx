@@ -4,6 +4,7 @@ import { BiPlusCircle } from "react-icons/bi";
 import CustomizedCheckbox from "../../../components/Btns/CheckBox/CheckBox";
 
 import InputSelectItems from "../../../components/Inputs/InputSelectItems";
+import { Link } from "react-router-dom";
 
 const AddOptions: React.FC = () => {
   return (
@@ -155,9 +156,13 @@ const AddOptions: React.FC = () => {
             </div>
             {/* Termina el itemr */}
           </div>
-          <div className="flex justify-between w-full">
-            <BtnForm />
-            <BtnForm />
+          <div className="flex justify-between w-full p-5">
+            <Link to="/flota/ids">
+            <BtnForm name="Canecelar" color="bg-colorDanger" size="w-auto"/>
+            </Link>
+            <Link to="/flota/ids/addoptions/datauser">
+            <BtnForm size="w-auto" name="Continuar"/>
+            </Link>
           </div>
         </div>
       </div>

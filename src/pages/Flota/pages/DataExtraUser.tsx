@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { BtnForm } from "../../../components/Btns/BtnForm";
 import Input from "../../../components/Inputs/Input";
 
@@ -10,6 +11,8 @@ export default function DataExtraUser() {
 
       <div className="flex w-full  items-center justify-center">
         <div className="w-11/12 bg-whiteColor rounded-lg p-10">
+
+
           <div>
             <h2 className="text-xl	font-semibold text-colorText mt-2">
               Ya es usted cliente?
@@ -24,7 +27,7 @@ export default function DataExtraUser() {
                 titlePLaceHolder="0000 0000 00000 00000"
               />
             </div>
-            <BtnForm />
+            <BtnForm name="Buscar mis datos"/>
           </div>
           
           <div>
@@ -65,9 +68,36 @@ export default function DataExtraUser() {
             <h2 className="text-xl	font-semibold text-colorText mt-4">
               Informacion adicional
             </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4 ">
+              <Input
+                title="Data extra"
+                titlePLaceHolder="Nombre completo"
+              />
+              <Input  title="Data extra" titlePLaceHolder="Apellido" />
+              <Input
+                 title="Data extra"
+                 titlePLaceHolder="Nombre completo"
+              />
+              <Input
+                title="Data extra"
+                titlePLaceHolder="Nombre completo"
+              />
+           
+            </div>
+          </div>
+
+          <div className="flex justify-between w-full mt-5">
+            <Link to="/flota/ids">
+            <BtnForm name="Canecelar" color="bg-colorDanger" size="w-auto"/>
+            </Link>
+            <Link to="/flota/ids/addoptions/datauser">
+            <BtnForm size="w-auto" name="Continuar"/>
+            </Link>
           </div>
         </div>
+          {/* una antes */}
       </div>
+
     </div>
   );
 }
