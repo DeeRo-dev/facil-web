@@ -1,11 +1,9 @@
 import React from "react";
-import { FaArrowLeftLong } from "react-icons/fa6";
-import { Link } from "react-router-dom";
-// import FormHome from "../../../components/FormHome/FormHome";
+
 import { FlotaCard } from "../../../components/FlotaCard/FlotaCard";
 
 import FormSide from "../../../components/Forms/FormSide";
-// import { FlotaCardProps } from "../../../components/FlotaCard/FlotaCard";
+
 
 interface SearchCarProps {
   // Define los tipos de props si es necesario
