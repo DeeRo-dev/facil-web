@@ -6,7 +6,7 @@ export const FlotaCard = () => {
   return (
     <div className="flex justify-between w-11/12 h-56 bg-whiteColor rounded-lg text-colorText">
       <div className="w-1/4 justify-center items-center flex">
-        <img src="carImg.svg" alt="Img not found" />
+        <img src="/carImg.svg" alt="Img not found" />
       </div>
       <div className="w-1/2  flex flex-col justify-around">
         <div>

@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
 import { BtnForm } from "../../../components/Btns/BtnForm";
 import Input from "../../../components/Inputs/Input";
+import ReservationData from "../../../components/reservationData/ReservationData";
 
 export default function DataExtraUser() {
   return (
     <div className="w-full m-auto mt-5 flex mb-10">
-      <div className="w-96 px-2 h-auto bg-terciary flex ">
-        {/* <FormHome /> */}
+      <div className="w-96 px-2 h-full  flex ">
+       <ReservationData/>
       </div>
 
       <div className="flex w-full  items-center justify-center">

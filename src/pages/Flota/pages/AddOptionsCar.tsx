@@ -5,12 +5,13 @@ import CustomizedCheckbox from "../../../components/Btns/CheckBox/CheckBox";
 
 import InputSelectItems from "../../../components/Inputs/InputSelectItems";
 import { Link } from "react-router-dom";
+import ReservationData from "../../../components/reservationData/ReservationData";
 
 const AddOptions: React.FC = () => {
   return (
     <div className="w-full m-auto mt-5 flex ">
-      <div className="w-96 px-2 h-auto bg-terciary flex ">
-        {/* <FormHome /> */}
+      <div className="w-96 px-2 h-full  flex ">
+       <ReservationData/>
       </div>
 
       <div className="flex w-full  items-center justify-center">
